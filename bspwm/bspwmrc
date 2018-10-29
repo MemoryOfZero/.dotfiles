@@ -10,9 +10,9 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 # bspwm rules
+bspc rule -a chromium desktop='^2'
 bspc rule -a discord desktop='^3'
 bspc rule -a Steam desktop='^4'
-bspc rule -a Chromium desktop='^2'
 
 # set background
 feh --bg-fill ~/Pictures/background.jpg
