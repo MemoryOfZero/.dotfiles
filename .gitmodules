@@ -1,9 +1,54 @@
 [submodule "tmux/.tmux"]
 	path = tmux/.tmux
 	url = https://github.com/gpakosz/.tmux.git
-[submodule "vim-pathogen"]
-	path = vim-pathogen
+[submodule "nvim/bundle/vim-pathogen"]
+	path = nvim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bufexplorer"]
-	path = bufexplorer
+[submodule "nvim/bundle/bufexplorer"]
+	path = nvim/bundle/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "nvim/bundle/ctrlp.vim"]
+	path = nvim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "nvim/bundle/lightline.vim"]
+	path = nvim/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "nvim/bundle/mru"]
+	path = nvim/bundle/mru
+	url = https://github.com/yegappan/mru.git
+[submodule "nvim/bundle/nerdtree"]
+	path = nvim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "nvim/bundle/onedark.vim"]
+	path = nvim/bundle/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "nvim/bundle/vim-fugitive"]
+	path = nvim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "nvim/bundle/vim-javascript"]
+	path = nvim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "nvim/bundle/vim-javascript-lib"]
+	path = nvim/bundle/vim-javascript-lib
+	url = https://github.com/crusoexia/vim-javascript-lib.git
+[submodule "nvim/bundle/vim-markdown"]
+	path = nvim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "nvim/bundle/vim-material-monokai"]
+	path = nvim/bundle/vim-material-monokai
+	url = https://github.com/skielbasa/vim-material-monokai.git
+[submodule "nvim/bundle/vim-monokai"]
+	path = nvim/bundle/vim-monokai
+	url = https://github.com/crusoexia/vim-monokai.git
+[submodule "nvim/bundle/vim-polyglot"]
+	path = nvim/bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "nvim/bundle/vim-surround"]
+	path = nvim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "nvim/bundle/vim-yankstack"]
+	path = nvim/bundle/vim-yankstack
+	url = https://github.com/maxbrunsfeld/vim-yankstack.git
+[submodule "zsh/.zprezto"]
+	path = zsh/.zprezto
+	url = https://github.com/sorin-ionescu/prezto.git
