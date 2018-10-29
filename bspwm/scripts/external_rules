@@ -1,0 +1,26 @@
+#!/bin/sh
+
+wid=$1
+class=$2
+instance=$3
+
+# Parse instance
+case "$instance" in
+	libreoffice)
+		printf "desktop='edit' follow=on"
+		;;
+	*)
+		# Parse class
+		case "$class" in
+			*)
+				# Parse window name
+				name=$(xdotool getwindowname "$wid")
+				case "$name" in
+					Butter|Popcorn-Time)
+						printf "desktop='play' follow=on"
+						;;
+				esac
+				;;
+		esac
+		;;
+esac

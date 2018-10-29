@@ -1,0 +1,28 @@
+#! /bin/sh
+
+# bspwm config
+bspc monitor -d I II III IV V
+
+bspc config border_width         2
+bspc config window_gap           5
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# bspwm rules
+bspc rule -a discord desktop='^3'
+bspc rule -a Steam desktop='^4'
+bspc rule -a Chromium desktop='^2'
+
+# set background
+feh --bg-fill ~/Pictures/background.jpg
+
+# AutoStart
+sxhkd &
+compton &
+polybar modern &
+chromium &
+discord-canary &
+steam &
+alacritty &
+nm-applet &
