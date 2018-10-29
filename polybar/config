@@ -126,7 +126,7 @@ label-empty-padding = 2
 
 [module/spotify]
 type = custom/script
-exec = ~/dotfiles/polybar/scripts/spotify.sh
+exec = ~/.dotfiles/polybar/scripts/spotify.sh
 interval = 3
 click-left = playerctl play-pause
 click-right = playerctl previous
