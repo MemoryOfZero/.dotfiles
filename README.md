@@ -2,10 +2,10 @@
 
 For zsh:
 Create a new .zshenv in ~/ with the following: 
-    ```
-    export ZDOTDIR=~/.dotfiles/zsh
-    source $ZDOTDIR/.zshenv
-    ```
+```
+export ZDOTDIR=~/.dotfiles/zsh
+source $ZDOTDIR/.zshenv
+```
 
 Symlink everything else
 
