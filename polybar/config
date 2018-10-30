@@ -113,8 +113,8 @@ type = custom/script
 exec = ~/.dotfiles/polybar/scripts/spotify.sh
 interval = 3
 click-left = playerctl play-pause
-click-right = playerctl previous
-click-middle = playerctl next
+click-right = playerctl next
+click-middle = playerctl previous
 
 [module/xbacklight]
 type = internal/xbacklight
