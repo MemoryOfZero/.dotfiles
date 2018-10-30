@@ -40,7 +40,7 @@ function dots {
 }
 
 alias pydt="python -m doctest -v"
-alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
+#alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
 
 function avenv {
     if [[ -z $1 && -s venv/bin/activate ]]; then
