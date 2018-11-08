@@ -15,6 +15,45 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 #
+# fn keys
+#
+
+# volume up
+XF86AudioRaiseVolume
+    amixer -q sset Master 5%+
+
+# volume down
+XF86AudioLowerVolume
+    amixer -q sset Master 5%-
+
+# volume mute
+XF86AudioMute
+    amixer -q sset Master toggle
+
+# previous track
+XF86AudioPrev
+    playerctl previous
+
+# play/pause
+XF86AudioPlay
+    playerctl play-pause
+
+XF86AudioPause
+    playerctl play-pause
+
+# next track
+XF86AudioNext
+    playerctl next
+
+# brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 5
+
+# brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
+#
 # bspwm hotkeys
 #
 

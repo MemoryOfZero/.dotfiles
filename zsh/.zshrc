@@ -10,10 +10,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Start ssh-agent and add keys if it is not up
-#if [[ -z $SSH_AUTH_SOCK ]]; then
-#    eval `ssh-agent -s`
-#    ssh-add
-#fi
+if [[ -z $SSH_AUTH_SOCK ]]; then
+    eval `ssh-agent -s`
+    ssh-add
+fi
 
 alias edit="nvim"
 alias cd..="cd .."
@@ -81,14 +81,14 @@ function cpkey {
     fi
 }
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-    eval "$(pyenv init -)"
-fi
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#if command -v pyenv 1>/dev/null 2>&1; then
+#    eval "$(pyenv init -)"
+#fi
 
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
