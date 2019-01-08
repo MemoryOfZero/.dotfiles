@@ -10,10 +10,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Start ssh-agent and add keys if it is not up
-if [[ -z $SSH_AUTH_SOCK ]]; then
-    eval `ssh-agent -s`
-    ssh-add
-fi
+#if [[ -z $SSH_AUTH_SOCK ]]; then
+#    eval `ssh-agent -s`
+#    ssh-add
+#fi
 
 alias edit="nvim"
 alias cd..="cd .."
