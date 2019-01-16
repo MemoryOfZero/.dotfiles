@@ -19,7 +19,8 @@ Symlink everything else
 - alacritty
 - tmux
 - nvim
-- playerctl (for spotify module in polybar)
+- playerctl
+- feh
 
 #### Fonts
 - awesomefont

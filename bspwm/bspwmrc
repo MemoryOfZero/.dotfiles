@@ -1,18 +1,20 @@
 #! /bin/sh
 
 # bspwm config
-bspc monitor eDPI1 -d I II III IV V VI
-bspc monitor HDMI1 -d 
+bspc monitor -d I II III IV V VI
 bspc config border_width         2
 bspc config window_gap           5
 bspc config split_ratio          0.52
 bspc config borderless_monocle   false
 bspc config gapless_monocle      false
+bspc desktop ^1 -l monocle
+bspc desktop ^3 -l monocle
 
 # bspwm rules
 bspc rule -a Chromium desktop='^2'
 bspc rule -a discord desktop='^3'
 bspc rule -a Steam desktop='^5'
+bspc rule -a Slack desktop='^3'
 
 # set background
 feh --bg-fill ~/Pictures/background.jpg
@@ -24,3 +26,4 @@ polybar modern &
 chromium &
 discord-canary &
 alacritty &
+
