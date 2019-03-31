@@ -60,10 +60,6 @@ let g:lightline = {
 "let g:materialmonokai_italic=1
 colorscheme material-monokai
 
-" Onedark
-"let g:onedark_terminal_italics=1
-"colorscheme onedark
-
 " Set transparent backgrounds
 hi Normal guibg=NONE
 hi LineNr guibg=NONE
