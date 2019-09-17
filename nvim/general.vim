@@ -82,7 +82,6 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
-au Filetype html setl ts=2 sw=2
 
 " Linebreak on 500 characters
 set lbr

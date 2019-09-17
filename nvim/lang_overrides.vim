@@ -1,4 +1,5 @@
-au FileType javascript setl nocindent
-au FileType javascript setl shiftwidth=2
-au FileType javascript setl tabstop=2
+au FileType javascript setl sw=4
+au FileType javascript setl ts=4
 
+au Filetype html setl sw=4
+au Filetype html setl ts=4

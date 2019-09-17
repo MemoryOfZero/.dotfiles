@@ -8,6 +8,5 @@ bspc desktop ^3 -l monocle
 bspc wm --adopt-orphans
 pkill polybar
 polybar modern >/dev/null 2>&1 &
-feh --bg-fill ~/Pictures/background.jpg
-synergy >/dev/null 2>&1 &
-systemctl --user start xfce4-notifyd &
+feh --bg-fill ~/Pictures/presentation.jpg
+pkill xfce4-notifyd

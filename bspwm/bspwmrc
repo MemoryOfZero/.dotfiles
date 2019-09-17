@@ -26,4 +26,5 @@ polybar modern &
 chromium &
 discord-canary &
 alacritty &
+spotify & sleep 2 && wmctrl -r "Spotify" -t 4 &
 

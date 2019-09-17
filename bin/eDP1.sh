@@ -10,3 +10,4 @@ pkill polybar
 polybar modern >/dev/null 2>&1 &
 feh --bg-fill ~/Pictures/background.jpg
 pkill synergy
+systemctl --user start xfce4-notifyd &
