@@ -15,7 +15,6 @@ fi
 #    ssh-add
 #fi
 
-alias edit="nvim"
 alias cd..="cd .."
 alias rm="rm"
 alias t="tmux"
@@ -26,6 +25,7 @@ alias n="nvim"
 alias shosts="grep -P '^Host ([^*]+)$' $HOME/.ssh/config | sed 's/Host //'"
 alias aliases="alias | less"
 alias pbcopy="xclip -selection clipboard"
+alias bcit="cd ~/Development/Personal/BCIT/"
 
 # Run ll when changing working dir
 function chpwd {
