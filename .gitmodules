@@ -55,3 +55,6 @@
 [submodule "nvim/bundle/vim-jsx-pretty"]
 	path = nvim/bundle/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
+[submodule "nvim/bundle/vim-polygot"]
+	path = nvim/bundle/vim-polygot
+	url = https://github.com/sheerun/vim-polyglot
